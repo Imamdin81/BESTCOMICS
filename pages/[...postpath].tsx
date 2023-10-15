@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: true,
 				destination: `${
-					`https://comicsconnoisseurs.com/` + encodeURI(path as string)
+					`https://bestcomics-eight.vercel.app/` + encodeURI(path as string)
 				}`,
 			},
 		};
